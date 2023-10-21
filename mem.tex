@@ -1,0 +1,105 @@
+\documentclass[11pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{geometry}
+\geometry{a4paper}
+\usepackage{graphicx}
+\usepackage{booktabs} 
+\usepackage{array} 
+\usepackage{paralist}
+\usepackage{verbatim}
+
+%\usepackage{subfig}
+\usepackage{tikz}
+\usepackage{amsmath,bm}
+\usepackage{mathrsfs}
+\usepackage{hyperref}
+\usetikzlibrary{calc}
+\usepackage{amssymb}
+\usepackage{nccmath}
+\usepackage{fancyhdr} 
+\pagestyle{fancy} 
+\renewcommand{\headrulewidth}{0pt}
+\lhead{}\chead{}\rhead{}
+\lfoot{}\cfoot{\thepage}\rfoot{}
+
+\usepackage{titling}
+\setlength{\droptitle}{-5em}   % This is your set screw
+
+%\numberwithin{equation}{section}
+
+\newcommand{\ra}[1]{\renewcommand{\arraystretch}{#1}}
+
+\usepackage{etoolbox}
+ \usepackage{relsize}
+
+\usepackage{tikz,pgfplots}
+\usepackage{tikz-3dplot}
+\usetikzlibrary{shapes,calc,positioning}
+\tdplotsetmaincoords{70}{120}
+\usetikzlibrary{patterns}
+\usepackage{parskip}
+
+\usepackage{subcaption}
+
+\usepackage{sectsty}
+\sectionfont{\fontsize{12}{15}\selectfont}
+%\allsectionsfont{\sffamily\mdseries\upshape} % (See the fntguide.pdf for font help)
+% (This matches ConTeXt defaults)
+
+%%% ToC (table of contents) APPEARANCE
+\usepackage[nottoc,notlof,notlot]{tocbibind} % Put the bibliography in the ToC
+\usepackage[titles,subfigure]{tocloft} % Alter the style of the Table of Contents
+\renewcommand{\cftsecfont}{\rmfamily\mdseries\upshape}
+\renewcommand{\cftsecpagefont}{\rmfamily\mdseries\upshape} % No bold!
+
+%\usepackage[compact]{titlesec}         % you need this package
+%\titlespacing{\section}{2pt}{2pt}{2pt} % this reduces space between (sub)sections to 0pt, for example
+
+\usepackage{pgfplots}
+    % define a command which stores all commands that are needed for every
+    % `raw gnuplot' call
+    \newcommand*\GnuplotDefs{
+        % set number of samples
+        set samples 501;
+        %
+        % define beta distribution function
+        % (copied from <http://gnuplot.sourceforge.net/demo/prob.5.gnu>)
+        Binv(p,q)=exp(lgamma(p+q)-lgamma(p)-lgamma(q));
+        beta(x,p,q)=p<=0||q<=0?1/0:x<0||x>1?0.0:Binv(p,q)*x**(p-1.0)*(1.0-x)**(q-1.0);
+    }
+
+\input{../pre}
+\input{../mathsymbols}
+
+\makeatletter
+\newcommand{\changeoperator}[1]{%
+  \csletcs{#1@saved}{#1@}%
+  \csdef{#1@}{\changed@operator{#1}}%
+}
+\newcommand{\changed@operator}[1]{%
+  \mathop{%
+    \mathchoice{\textstyle\csuse{#1@saved}}
+               {\csuse{#1@saved}}
+               {\csuse{#1@saved}}
+               {\csuse{#1@saved}}%
+  }%
+}
+\makeatother
+
+\changeoperator{sum}
+\changeoperator{prod}
+
+\title{On equivalences between machine learning and structural (topology) optimization algorithms}
+\author{Dirk Munro (TU Delft, The Netherlands)}
+\date{\today } 
+% Activate to display a given date or no date (if empty),
+         % otherwise the current date is printed 
+
+\begin{document}
+\maketitle
+
+% BIBLIOGRAPHY
+\bibliographystyle{unsrt} 
+\addcontentsline{toc}{chapter}{References} 
+\bibliography{../bib.bib,../sn-bibliography.bib} 
+\end{document}

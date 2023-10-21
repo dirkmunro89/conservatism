@@ -1,0 +1,89 @@
+\documentclass[12pt]{article}
+\usepackage{graphicx}
+\usepackage{hyperref}
+\usepackage[landscape, margin=2cm]{geometry}
+\usepackage{multicol}
+\usepackage{pgffor}
+\usepackage{verbatim}
+\usepackage{amsmath,bm}
+\usepackage{mathrsfs}
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\renewcommand{\headrulewidth}{0pt}
+\usepackage{sectsty}
+\sectionfont{\fontsize{12}{15}\selectfont}
+%
+\newcommand{\f}{\textrm{F}}
+\newcommand{\g}{\textrm{G}}
+\newcommand{\x}{{x}}
+\renewcommand{\d}{\textrm{d}}
+%
+%
+%
+\begin{document}
+\Huge
+%
+\centering
+\vspace*{20mm} 
+\textbf{Groenwolds's relaxed conservatism}
+
+\bigskip
+
+\small
+\raggedright
+
+See algorithm in appended Python code. 
+
+The objective and constraint function is given verbatim below. 
+
+(Notice the naive choice of (a quadratic approximation to) a reciprocal intervening variable based function, \verb{dd{$\ldots$)
+
+\verbatiminput{fun.py}
+
+\thispagestyle{empty}
+
+\newpage
+
+\pagenumbering{arabic} 
+\renewcommand{\thepage}{Iteration \arabic{page}}
+%
+\foreach \k  in {0,...,100}{
+\IfFileExists{itr_\k.eps}{
+%
+\begin{minipage}[t]{8cm}
+\normalsize
+\vspace{-10cm}
+\input{tmp2_\k.tex}
+\end{minipage} 
+\begin{minipage}[t]{14cm}
+%\begin{figure}[htb!]
+\centering
+\includegraphics[width=14cm]{itr_\k.eps}
+%\end{figure}
+\normalsize
+\end{minipage}
+\normalsize
+\raggedright
+%
+
+\input{tmp1_\k.tex}
+%
+\newpage
+\large
+}
+}{}
+%
+\small
+%\begin{multicols}{2}
+%\verbatiminput{slides.tex}
+%\end{multicols}
+%
+%\newpage
+%\begin{multicols}{2}
+\vspace*{20mm} 
+\Large
+\thispagestyle{empty}
+\href{https://raw.githubusercontent.com/dirkmunro89/conservatism/main/groen.py}{Python code}
+%\end{multicols}
+%
+\end{document}
