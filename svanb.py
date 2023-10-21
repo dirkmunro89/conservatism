@@ -27,6 +27,7 @@ if __name__ == '__main__':
     xnew=0.0
     xold=0.0
     mov=0.1
+    eps=1e-6
 #
 #   for plotting
 #
@@ -37,6 +38,8 @@ if __name__ == '__main__':
 #   starting point
 #
     x = 0.5
+#
+    print('%3s %14s %14s %14s %14s %14s'%('k','f','g','x','lab','abs(x-xold)'))
 #
 #   loop
 #
@@ -50,19 +53,19 @@ if __name__ == '__main__':
 #       check if approximations are conservative
 #
         flg=0
-        if k>0 and fapp < f or gapp < g:
+        if k>0 and fapp < f-eps or gapp < g-eps:
             with open('tmp1_%d.tex'%(k-1),'a') as file:
                 file.write('\\bigskip\n However, the solution (step) \
                     is deemed \\emph{unacceptable}, because \n \n')
             x=xold
-            if fapp < f:
+            if fapp < f-eps:
                 cf = cf*2.
                 with open('tmp1_%d.tex'%(k-1),'a') as file:
                     file.write('$\\to$ the value of the objective \
                         function approximation is less than the actual function \
                         value, at the new design point, \
                         $\\tilde {\\f}^{k\\star} < {\\f}^{k\\star}$.')
-            if gapp < g:
+            if gapp < g-eps:
                 cg = cg*2.
                 with open('tmp1_%d.tex'%(k-1),'a') as file:
                     file.write('\n\n $\\to$ the value of the constraint function \
@@ -82,9 +85,9 @@ if __name__ == '__main__':
                     $\\tilde {\\g}^{k\\star} > {\\g}^{k\\star}$ \n\n')
             flg=1; cg=1; cf=1
 #
-        if flg == 1 and abs(x-xold)<1e-6:
+        if flg == 1 and abs(x-xold)<eps:
             with open('tmp1_%d.tex'%(k-1),'a') as file:
-                file.write('\n\n \\bigskip Terminated on $| \\x^{k\\star} - \\x^{k}|$ $<$ 1e-6\n')
+                file.write('\n\n\\bigskip Terminated on $|\\x^{k\\star}-\\x^{k}|$$<$%8.1e\n'%eps)
             exit()
 #
 #       plot the approximations around the current point
@@ -94,14 +97,14 @@ if __name__ == '__main__':
 #
 #       enforce strict convexity
 #
-        ddf=max(ddf,1e-3)
-        ddg=max(ddg,0.)
+        ddf=max(ddf,eps)
+        ddg=max(ddg,eps)
 #
 #       QPQC update
 #
         lab_lo = 1e-9
         lab_up = 1e9
-        while (lab_up-lab_lo)/(lab_lo+lab_up)>1e-9:
+        while (lab_up-lab_lo)/(lab_lo+lab_up)>eps:
             lab=0.5*(lab_up+lab_lo)
             xdel=min(max((df+lab*dg)/(ddf*cf+lab*ddg*cg),-mov),mov)
             xnew=min(max(0.,x-xdel),1.)
@@ -141,7 +144,7 @@ if __name__ == '__main__':
 #
 #       screen output
 #
-        print('%3d %14.3e %14.3e %14.3e'%(k,f,g,abs(x-xold)))
+        print('%3d %14.3e %14.3e %14.3e %14.3e %14.3e'%(k,f,g,x,lab,abs(x-xold)))
 #
 #       tex output
 #

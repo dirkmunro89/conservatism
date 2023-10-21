@@ -1,6 +1,7 @@
 #
 import logging
 import numpy as np
+from scipy.optimize import minimize
 import matplotlib.pyplot as plt
 logging.getLogger('matplotlib').setLevel(level=logging.CRITICAL)
 plt.rcParams.update({
@@ -11,6 +12,33 @@ plt.rcParams.update({
 #   
 from tex import tex
 from fun import obj,con
+#
+def qpqc_update(lab,x_k,f,df,ddf,cf,g,dg,ddg,cg,mov):
+#
+    xdel=min(max((df+lab*dg)/(ddf*cf+lab*ddg*cg),-mov),mov)
+    xnew=min(max(0.,x_k-xdel),1.)
+#
+    return xnew
+#
+def qpq_dual(lab,x_k,f,df,ddf,cf,g,dg,ddg,cg,mov):
+#
+    x=qpqc_update(lab,x_k,f,df,ddf,cf,g,dg,ddg,cg,mov)
+#
+    ddL=(cf*ddf + cg*lab*ddg)
+#
+    W=f+df*(x-x_k)+ddL/2.*(x-x_k)**2.+lab*(g+dg*(x-x_k))
+#
+    return -W
+#
+# QPQC: Dual gradient
+#
+def dqpq_dual(lab,x_k,f,df,ddf,cf,g,dg,ddg,cg,mov):
+#
+    x=qpqc_update(lab,x_k,f,df,ddf,cf,g,dg,ddg,cg,mov)
+#
+    dW=g+dg*(x-x_k)+ddg*cg/2e0*(x-x_k)**2e0
+#
+    return -dW
 #
 #   main
 #
@@ -39,6 +67,7 @@ if __name__ == '__main__':
 #   starting point
 #
     x = 0.5
+    lab = 0.
 #
     print('%3s %14s %14s %14s %14s %14s'%('k','f','g','x','lab','abs(x-xold)'))
 #
@@ -117,17 +146,15 @@ if __name__ == '__main__':
 #
 #       QPQC update
 #
-        lab_lo = 1e-9
-        lab_up = 1e9
-        while (lab_up-lab_lo)/(lab_lo+lab_up)>eps:
-            lab=0.5*(lab_up+lab_lo)
-            xdel=min(max((df+lab*dg)/(ddf*cf+lab*ddg*cg),-mov),mov)
-            xnew=min(max(0.,x-xdel),1.)
-            gt=g+dg*(xnew-x)+cg*ddg*(xnew-x)*(xnew-x)/2.
-            if gt>0 :
-                lab_lo=lab
-            else:
-                lab_up=lab
+        bds=[[1e-9,1e9] for i in range(1)]; tup_bds=tuple(bds)
+        sol=minimize(qpq_dual,lab,args=(x,f,df,ddf,cf,g,dg,ddg,cg,mov), \
+            jac=dqpq_dual,method='L-BFGS-B',bounds=tup_bds, options={'disp':False})
+#
+        if sol.status != 0 or sol.success != True : print('Warning; subproblem')
+#
+        lab=sol.x
+#
+        xnew=qpqc_update(lab,x,f,df,ddf,cf,g,dg,ddg,cg,mov)
 #
 #       get the approximate function values at new point
 #

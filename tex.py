@@ -34,14 +34,14 @@ def tex(k,lab,x,f,df,ddf,cf,g,dg,ddg,cg,fapp,gapp,fnew,gnew,xnew):
         with open('tmp1_%d.tex'%k,'w') as file:
             txt='At the solution of the QP the function approximations have the values'
             file.write(txt+'\n\n')
-            txt= '$\\tilde \\f^{k\\star} = %10.3e$'%fapp
+            txt= '$\\tilde \\f^{k\\star} = %13.6e$'%fapp
             file.write(txt+'\n\n')
-            txt= '$\\tilde \\g^{k\\star} = %10.3e$'%gapp
+            txt= '$\\tilde \\g^{k\\star} = %13.6e$'%gapp
             file.write(txt+'\n\n')
             file.write('\\bigskip\n')
             txt='while the actual functions are evaluated to be'
             file.write(txt+'\n\n')
-            txt= '$\\f^{k\\star} = %10.3e$'%fnew
+            txt= '$\\f^{k\\star} = %13.6e$'%fnew
             file.write(txt+'\n\n')
-            txt= '$\\g^{k\\star} = %10.3e$'%gnew
+            txt= '$\\g^{k\\star} = %13.6e$'%gnew
             file.write(txt+'\n\n')

@@ -1,23 +1,19 @@
 At the solution of the QP the function approximations have the values
 
-$\tilde \f^{k\star} = -5.410e-01$
+$\tilde \f^{k\star} = -5.410317e-01$
 
-$\tilde \g^{k\star} = -1.769e-10$
+$\tilde \g^{k\star} =  3.024409e-07$
 
 \bigskip
 while the actual functions are evaluated to be
 
-$\f^{k\star} = -5.410e-01$
+$\f^{k\star} = -5.410317e-01$
 
-$\g^{k\star} =  9.293e-08$
+$\g^{k\star} =  3.024416e-07$
 
-\bigskip
- However, the solution (step)                         is not a feasible descent step, and it is deemed                         \emph{unacceptable}, because 
- 
-$\to$ the value of the objective                             function approximation is less than the actual function                             value, at the new design point,                             $\tilde {\f}^{k\star} < {\f}^{k\star}$.
+\bigskip 
+ Both the value objective function approximation                         and the constraint function approximation, at the new design point                         $x^{k\star}$, is \emph{conservative} with respect to the actual function                         values, $\tilde {\f}^{k\star} > {\f}^{k\star}$,                         $\tilde {\g}^{k\star} > {\g}^{k\star}$ 
 
- $\to$ the value of the constraint function                             approximation is less than the actual function value, at                             the new design point, $\tilde {\g}^{k\star} < {\g}^{k\star}$.
 
- \bigskip 
 
- That is, at least one approximation                         function is not \emph{conservative}.
+\bigskip Terminated on $|\x^{k\star}-\x^{k}|$$<$ 1.0e-06
