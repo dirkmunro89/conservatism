@@ -27,7 +27,7 @@ if __name__ == '__main__':
     xnew=0.0
     xold=0.0
     mov=0.1
-    eps=1e-6
+    eps=1e-3
 #
 #   for plotting
 #
@@ -53,7 +53,8 @@ if __name__ == '__main__':
 #       check if approximations are conservative
 #
         flg=0
-        if k>0 and fapp < f-eps or gapp < g-eps:
+        if k==0: fapp=1e8; gapp=1e8
+        if fapp < f-eps or gapp < g-eps:
             with open('tmp1_%d.tex'%(k-1),'a') as file:
                 file.write('\\bigskip\n However, the solution (step) \
                     is deemed \\emph{unacceptable}, because \n \n')

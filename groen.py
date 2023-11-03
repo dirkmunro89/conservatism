@@ -27,7 +27,7 @@ if __name__ == '__main__':
     xnew=0.0
     xold=0.0
     mov=0.1
-    eps=1e-6
+    eps=1e-3
     f=1e8
 #
 #   for plotting
@@ -55,8 +55,9 @@ if __name__ == '__main__':
 #       check if approximations are conservative
 #
         flg=0
-        if f > fold or g > 0.: # not a feasible descent step, check conservatism
-            if k>0 and fapp < f-eps or gapp < g-eps:
+        if k==0: fapp=1e8; gapp=1e8
+        if f > fold or g > eps: # not a feasible descent step, check conservatism
+            if fapp < f-eps or gapp < g-eps:
                 with open('tmp1_%d.tex'%(k-1),'a') as file:
                     file.write('\\bigskip\n However, the solution (step) \
                         is not a feasible descent step, and it is deemed \
@@ -82,7 +83,8 @@ if __name__ == '__main__':
                 [g,dg,ddg] = con(x)
             else:
                 with open('tmp1_%d.tex'%(k-1),'a') as file:
-                    file.write('\\bigskip \n Both the value objective function approximation \
+                    file.write('\\bigskip \n Not a feasible descent step, but both the value \
+                        objective function approximation \
                         and the constraint function approximation, at the new design point \
                         $x^{k\\star}$, is \\emph{conservative} with respect to the actual function \
                         values, $\\tilde {\\f}^{k\\star} > {\\f}^{k\\star}$, \

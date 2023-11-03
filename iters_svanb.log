@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.5.31)  21 OCT 2023 18:38
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.5.31)  23 OCT 2023 07:38
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -435,39 +435,6 @@ rs
 \f@nch@O@olf=\skip62
 \f@nch@O@orf=\skip63
 )
-(/usr/share/texlive/texmf-dist/tex/latex/attachfile/attachfile.sty
-Package: attachfile 2016/09/18 v1.9 PDF 1.3+ file attachment
-
-(/usr/share/texlive/texmf-dist/tex/generic/iftex/ifpdf.sty
-Package: ifpdf 2019/10/25 v3.4 ifpdf legacy package. Use iftex instead.
-)
-(/usr/share/texlive/texmf-dist/tex/latex/tools/calc.sty
-Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count300
-\calc@Bcount=\count301
-\calc@Adimen=\dimen184
-\calc@Bdimen=\dimen185
-\calc@Askip=\skip64
-\calc@Bskip=\skip65
-LaTeX Info: Redefining \setlength on input line 80.
-LaTeX Info: Redefining \addtolength on input line 81.
-\calc@Ccount=\count302
-\calc@Cskip=\skip66
-)
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/color.sty
-Package: color 2021/12/07 v1.3c Standard LaTeX Color (DPC)
-
-(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg
-File: color.cfg 2016/01/02 v1.6 sample color configuration
-)
-Package color Info: Driver file: pdftex.def on input line 149.
-)
-\c@atfi@tmp=\count303
-\atfi@appearancewidth=\skip67
-\atfi@appearanceheight=\skip68
-\atfi@appearancedepth=\skip69
-\atfi@appearancebox=\box99
-)
 (/usr/share/texlive/texmf-dist/tex/latex/sectsty/sectsty.sty
 Package: sectsty 2002/02/25 v2.0.2 Commands to change all sectional heading sty
 les
@@ -482,43 +449,43 @@ LaTeX Warning: Command \underline  has changed.
 
 ) (/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2022-01-12 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count304
-\l__pdf_internal_box=\box100
+\l__color_backend_stack_int=\count300
+\l__pdf_internal_box=\box99
 )
 (./iters_svanb.aux)
 \openout1 = `iters_svanb.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
 
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count305
-\scratchdimen=\dimen186
-\scratchbox=\box101
-\nofMPsegments=\count306
-\nofMParguments=\count307
+\scratchcounter=\count301
+\scratchdimen=\dimen184
+\scratchbox=\box100
+\nofMPsegments=\count302
+\nofMParguments=\count303
 \everyMPshowfont=\toks34
-\MPscratchCnt=\count308
-\MPscratchDim=\dimen187
-\MPnumerator=\count309
-\makeMPintoPDFobject=\count310
+\MPscratchCnt=\count304
+\MPscratchDim=\dimen185
+\MPnumerator=\count305
+\makeMPintoPDFobject=\count306
 \everyMPtoPDFconversion=\toks35
 ) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
@@ -529,7 +496,7 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-Package hyperref Info: Link coloring OFF on input line 24.
+Package hyperref Info: Link coloring OFF on input line 23.
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
@@ -540,11 +507,11 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 (/usr/share/texlive/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count311
+\c@section@level=\count307
 )
-LaTeX Info: Redefining \ref on input line 24.
-LaTeX Info: Redefining \pageref on input line 24.
-LaTeX Info: Redefining \nameref on input line 24.
+LaTeX Info: Redefining \ref on input line 23.
+LaTeX Info: Redefining \pageref on input line 23.
+LaTeX Info: Redefining \nameref on input line 23.
 
 (./iters_svanb.out) (./iters_svanb.out)
 \@outlinefile=\write3
@@ -585,7 +552,7 @@ LaTeX Info: Redefining \nameref on input line 24.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-LaTeX Font Info:    Trying to load font information for U+rsfs on input line 36
+LaTeX Font Info:    Trying to load font information for U+rsfs on input line 35
 .
 (/usr/share/texlive/texmf-dist/tex/latex/jknapltx/ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
@@ -604,24 +571,24 @@ LaTeX Font Warning: Command \footnotesize invalid in math mode on input line 22
 
 )
 Package epstopdf Info: Source file: <itr_0.eps>
-(epstopdf)                    date: 2023-10-21 18:38:41
-(epstopdf)                    size: 206541 bytes
+(epstopdf)                    date: 2023-10-23 07:38:36
+(epstopdf)                    size: 206571 bytes
 (epstopdf)             Output file: <itr_0-eps-converted-to.pdf>
-(epstopdf)                    date: 2023-10-21 18:37:53
-(epstopdf)                    size: 11856 bytes
+(epstopdf)                    date: 2023-10-23 07:37:14
+(epstopdf)                    size: 11584 bytes
 (epstopdf)             Command: <repstopdf --outfile=itr_0-eps-converted-to.pdf
  itr_0.eps>
-(epstopdf)             \includegraphics on input line 72.
+(epstopdf)             \includegraphics on input line 71.
 runsystem(repstopdf --outfile=itr_0-eps-converted-to.pdf itr_0.eps)...executed 
 safely (allowed).
 
 Package epstopdf Info: Result file: <itr_0-eps-converted-to.pdf>
-(epstopdf)                    date: 2023-10-21 18:38:50
-(epstopdf)                    size: 11842 bytes.
+(epstopdf)                    date: 2023-10-23 07:38:45
+(epstopdf)                    size: 11861 bytes.
 <itr_0-eps-converted-to.pdf, id=13, 462.72874pt x 347.2975pt>
 File: itr_0-eps-converted-to.pdf Graphic file (type pdf)
 <use itr_0-eps-converted-to.pdf>
-Package pdftex.def Info: itr_0-eps-converted-to.pdf  used on input line 72.
+Package pdftex.def Info: itr_0-eps-converted-to.pdf  used on input line 71.
 (pdftex.def)             Requested size: 398.33858pt x 298.97208pt.
  (./tmp1_0.tex)
 
@@ -643,24 +610,24 @@ LaTeX Font Warning: Command \footnotesize invalid in math mode on input line 22
 
 )
 Package epstopdf Info: Source file: <itr_1.eps>
-(epstopdf)                    date: 2023-10-21 18:38:41
-(epstopdf)                    size: 206804 bytes
+(epstopdf)                    date: 2023-10-23 07:38:37
+(epstopdf)                    size: 206856 bytes
 (epstopdf)             Output file: <itr_1-eps-converted-to.pdf>
-(epstopdf)                    date: 2023-10-21 18:37:53
-(epstopdf)                    size: 12030 bytes
+(epstopdf)                    date: 2023-10-23 07:37:14
+(epstopdf)                    size: 11685 bytes
 (epstopdf)             Command: <repstopdf --outfile=itr_1-eps-converted-to.pdf
  itr_1.eps>
-(epstopdf)             \includegraphics on input line 72.
+(epstopdf)             \includegraphics on input line 71.
 runsystem(repstopdf --outfile=itr_1-eps-converted-to.pdf itr_1.eps)...executed 
 safely (allowed).
 
 Package epstopdf Info: Result file: <itr_1-eps-converted-to.pdf>
-(epstopdf)                    date: 2023-10-21 18:38:51
+(epstopdf)                    date: 2023-10-23 07:38:45
 (epstopdf)                    size: 12030 bytes.
 <itr_1-eps-converted-to.pdf, id=42, 462.72874pt x 347.2975pt>
 File: itr_1-eps-converted-to.pdf Graphic file (type pdf)
 <use itr_1-eps-converted-to.pdf>
-Package pdftex.def Info: itr_1-eps-converted-to.pdf  used on input line 72.
+Package pdftex.def Info: itr_1-eps-converted-to.pdf  used on input line 71.
 (pdftex.def)             Requested size: 398.33858pt x 298.97208pt.
  (./tmp1_1.tex)
 
@@ -682,24 +649,24 @@ LaTeX Font Warning: Command \footnotesize invalid in math mode on input line 22
 
 )
 Package epstopdf Info: Source file: <itr_2.eps>
-(epstopdf)                    date: 2023-10-21 18:38:42
-(epstopdf)                    size: 207183 bytes
+(epstopdf)                    date: 2023-10-23 07:38:37
+(epstopdf)                    size: 207199 bytes
 (epstopdf)             Output file: <itr_2-eps-converted-to.pdf>
-(epstopdf)                    date: 2023-10-21 18:37:54
-(epstopdf)                    size: 12148 bytes
+(epstopdf)                    date: 2023-10-23 07:37:15
+(epstopdf)                    size: 11798 bytes
 (epstopdf)             Command: <repstopdf --outfile=itr_2-eps-converted-to.pdf
  itr_2.eps>
-(epstopdf)             \includegraphics on input line 72.
+(epstopdf)             \includegraphics on input line 71.
 runsystem(repstopdf --outfile=itr_2-eps-converted-to.pdf itr_2.eps)...executed 
 safely (allowed).
 
 Package epstopdf Info: Result file: <itr_2-eps-converted-to.pdf>
-(epstopdf)                    date: 2023-10-21 18:38:51
-(epstopdf)                    size: 12148 bytes.
+(epstopdf)                    date: 2023-10-23 07:38:46
+(epstopdf)                    size: 12145 bytes.
 <itr_2-eps-converted-to.pdf, id=57, 462.72874pt x 347.2975pt>
 File: itr_2-eps-converted-to.pdf Graphic file (type pdf)
 <use itr_2-eps-converted-to.pdf>
-Package pdftex.def Info: itr_2-eps-converted-to.pdf  used on input line 72.
+Package pdftex.def Info: itr_2-eps-converted-to.pdf  used on input line 71.
 (pdftex.def)             Requested size: 398.33858pt x 298.97208pt.
  (./tmp1_2.tex)
 
@@ -721,24 +688,24 @@ LaTeX Font Warning: Command \footnotesize invalid in math mode on input line 22
 
 )
 Package epstopdf Info: Source file: <itr_3.eps>
-(epstopdf)                    date: 2023-10-21 18:38:43
+(epstopdf)                    date: 2023-10-23 07:38:38
 (epstopdf)                    size: 207645 bytes
 (epstopdf)             Output file: <itr_3-eps-converted-to.pdf>
-(epstopdf)                    date: 2023-10-21 18:37:54
-(epstopdf)                    size: 12335 bytes
+(epstopdf)                    date: 2023-10-23 07:37:15
+(epstopdf)                    size: 11879 bytes
 (epstopdf)             Command: <repstopdf --outfile=itr_3-eps-converted-to.pdf
  itr_3.eps>
-(epstopdf)             \includegraphics on input line 72.
+(epstopdf)             \includegraphics on input line 71.
 runsystem(repstopdf --outfile=itr_3-eps-converted-to.pdf itr_3.eps)...executed 
 safely (allowed).
 
 Package epstopdf Info: Result file: <itr_3-eps-converted-to.pdf>
-(epstopdf)                    date: 2023-10-21 18:38:52
+(epstopdf)                    date: 2023-10-23 07:38:46
 (epstopdf)                    size: 12335 bytes.
 <itr_3-eps-converted-to.pdf, id=72, 462.72874pt x 347.2975pt>
 File: itr_3-eps-converted-to.pdf Graphic file (type pdf)
 <use itr_3-eps-converted-to.pdf>
-Package pdftex.def Info: itr_3-eps-converted-to.pdf  used on input line 72.
+Package pdftex.def Info: itr_3-eps-converted-to.pdf  used on input line 71.
 (pdftex.def)             Requested size: 398.33858pt x 298.97208pt.
  (./tmp1_3.tex)
 
@@ -760,24 +727,24 @@ LaTeX Font Warning: Command \footnotesize invalid in math mode on input line 22
 
 )
 Package epstopdf Info: Source file: <itr_4.eps>
-(epstopdf)                    date: 2023-10-21 18:38:43
+(epstopdf)                    date: 2023-10-23 07:38:39
 (epstopdf)                    size: 207809 bytes
 (epstopdf)             Output file: <itr_4-eps-converted-to.pdf>
-(epstopdf)                    date: 2023-10-21 18:37:55
-(epstopdf)                    size: 12374 bytes
+(epstopdf)                    date: 2023-10-23 07:37:16
+(epstopdf)                    size: 11948 bytes
 (epstopdf)             Command: <repstopdf --outfile=itr_4-eps-converted-to.pdf
  itr_4.eps>
-(epstopdf)             \includegraphics on input line 72.
+(epstopdf)             \includegraphics on input line 71.
 runsystem(repstopdf --outfile=itr_4-eps-converted-to.pdf itr_4.eps)...executed 
 safely (allowed).
 
 Package epstopdf Info: Result file: <itr_4-eps-converted-to.pdf>
-(epstopdf)                    date: 2023-10-21 18:38:52
-(epstopdf)                    size: 12374 bytes.
+(epstopdf)                    date: 2023-10-23 07:38:47
+(epstopdf)                    size: 12373 bytes.
 <itr_4-eps-converted-to.pdf, id=87, 462.72874pt x 347.2975pt>
 File: itr_4-eps-converted-to.pdf Graphic file (type pdf)
 <use itr_4-eps-converted-to.pdf>
-Package pdftex.def Info: itr_4-eps-converted-to.pdf  used on input line 72.
+Package pdftex.def Info: itr_4-eps-converted-to.pdf  used on input line 71.
 (pdftex.def)             Requested size: 398.33858pt x 298.97208pt.
  (./tmp1_4.tex)
 
@@ -799,24 +766,24 @@ LaTeX Font Warning: Command \footnotesize invalid in math mode on input line 22
 
 )
 Package epstopdf Info: Source file: <itr_5.eps>
-(epstopdf)                    date: 2023-10-21 18:38:44
-(epstopdf)                    size: 207944 bytes
+(epstopdf)                    date: 2023-10-23 07:38:39
+(epstopdf)                    size: 207908 bytes
 (epstopdf)             Output file: <itr_5-eps-converted-to.pdf>
-(epstopdf)                    date: 2023-10-21 18:37:55
-(epstopdf)                    size: 12455 bytes
+(epstopdf)                    date: 2023-10-23 07:37:16
+(epstopdf)                    size: 12155 bytes
 (epstopdf)             Command: <repstopdf --outfile=itr_5-eps-converted-to.pdf
  itr_5.eps>
-(epstopdf)             \includegraphics on input line 72.
+(epstopdf)             \includegraphics on input line 71.
 runsystem(repstopdf --outfile=itr_5-eps-converted-to.pdf itr_5.eps)...executed 
 safely (allowed).
 
 Package epstopdf Info: Result file: <itr_5-eps-converted-to.pdf>
-(epstopdf)                    date: 2023-10-21 18:38:53
-(epstopdf)                    size: 12455 bytes.
+(epstopdf)                    date: 2023-10-23 07:38:47
+(epstopdf)                    size: 12451 bytes.
 <itr_5-eps-converted-to.pdf, id=102, 462.72874pt x 347.2975pt>
 File: itr_5-eps-converted-to.pdf Graphic file (type pdf)
 <use itr_5-eps-converted-to.pdf>
-Package pdftex.def Info: itr_5-eps-converted-to.pdf  used on input line 72.
+Package pdftex.def Info: itr_5-eps-converted-to.pdf  used on input line 71.
 (pdftex.def)             Requested size: 398.33858pt x 298.97208pt.
  (./tmp1_5.tex)
 
@@ -838,24 +805,24 @@ LaTeX Font Warning: Command \footnotesize invalid in math mode on input line 22
 
 )
 Package epstopdf Info: Source file: <itr_6.eps>
-(epstopdf)                    date: 2023-10-21 18:38:44
-(epstopdf)                    size: 206515 bytes
+(epstopdf)                    date: 2023-10-23 07:38:40
+(epstopdf)                    size: 206587 bytes
 (epstopdf)             Output file: <itr_6-eps-converted-to.pdf>
-(epstopdf)                    date: 2023-10-21 18:37:55
-(epstopdf)                    size: 11879 bytes
+(epstopdf)                    date: 2023-10-23 07:37:17
+(epstopdf)                    size: 11892 bytes
 (epstopdf)             Command: <repstopdf --outfile=itr_6-eps-converted-to.pdf
  itr_6.eps>
-(epstopdf)             \includegraphics on input line 72.
+(epstopdf)             \includegraphics on input line 71.
 runsystem(repstopdf --outfile=itr_6-eps-converted-to.pdf itr_6.eps)...executed 
 safely (allowed).
 
 Package epstopdf Info: Result file: <itr_6-eps-converted-to.pdf>
-(epstopdf)                    date: 2023-10-21 18:38:53
-(epstopdf)                    size: 11879 bytes.
+(epstopdf)                    date: 2023-10-23 07:38:48
+(epstopdf)                    size: 11863 bytes.
 <itr_6-eps-converted-to.pdf, id=118, 462.72874pt x 347.2975pt>
 File: itr_6-eps-converted-to.pdf Graphic file (type pdf)
 <use itr_6-eps-converted-to.pdf>
-Package pdftex.def Info: itr_6-eps-converted-to.pdf  used on input line 72.
+Package pdftex.def Info: itr_6-eps-converted-to.pdf  used on input line 71.
 (pdftex.def)             Requested size: 398.33858pt x 298.97208pt.
  (./tmp1_6.tex)
 
@@ -877,24 +844,24 @@ LaTeX Font Warning: Command \footnotesize invalid in math mode on input line 22
 
 )
 Package epstopdf Info: Source file: <itr_7.eps>
-(epstopdf)                    date: 2023-10-21 18:38:45
-(epstopdf)                    size: 206880 bytes
+(epstopdf)                    date: 2023-10-23 07:38:41
+(epstopdf)                    size: 206730 bytes
 (epstopdf)             Output file: <itr_7-eps-converted-to.pdf>
-(epstopdf)                    date: 2023-10-21 18:37:56
-(epstopdf)                    size: 11985 bytes
+(epstopdf)                    date: 2023-10-23 07:37:18
+(epstopdf)                    size: 11957 bytes
 (epstopdf)             Command: <repstopdf --outfile=itr_7-eps-converted-to.pdf
  itr_7.eps>
-(epstopdf)             \includegraphics on input line 72.
+(epstopdf)             \includegraphics on input line 71.
 runsystem(repstopdf --outfile=itr_7-eps-converted-to.pdf itr_7.eps)...executed 
 safely (allowed).
 
 Package epstopdf Info: Result file: <itr_7-eps-converted-to.pdf>
-(epstopdf)                    date: 2023-10-21 18:38:54
-(epstopdf)                    size: 11985 bytes.
+(epstopdf)                    date: 2023-10-23 07:38:48
+(epstopdf)                    size: 11932 bytes.
 <itr_7-eps-converted-to.pdf, id=133, 462.72874pt x 347.2975pt>
 File: itr_7-eps-converted-to.pdf Graphic file (type pdf)
 <use itr_7-eps-converted-to.pdf>
-Package pdftex.def Info: itr_7-eps-converted-to.pdf  used on input line 72.
+Package pdftex.def Info: itr_7-eps-converted-to.pdf  used on input line 71.
 (pdftex.def)             Requested size: 398.33858pt x 298.97208pt.
  (./tmp1_7.tex)
 
@@ -916,24 +883,24 @@ LaTeX Font Warning: Command \footnotesize invalid in math mode on input line 22
 
 )
 Package epstopdf Info: Source file: <itr_8.eps>
-(epstopdf)                    date: 2023-10-21 18:38:45
-(epstopdf)                    size: 207322 bytes
+(epstopdf)                    date: 2023-10-23 07:38:41
+(epstopdf)                    size: 206972 bytes
 (epstopdf)             Output file: <itr_8-eps-converted-to.pdf>
-(epstopdf)                    date: 2023-10-21 18:37:56
-(epstopdf)                    size: 12151 bytes
+(epstopdf)                    date: 2023-10-23 07:37:18
+(epstopdf)                    size: 12142 bytes
 (epstopdf)             Command: <repstopdf --outfile=itr_8-eps-converted-to.pdf
  itr_8.eps>
-(epstopdf)             \includegraphics on input line 72.
+(epstopdf)             \includegraphics on input line 71.
 runsystem(repstopdf --outfile=itr_8-eps-converted-to.pdf itr_8.eps)...executed 
 safely (allowed).
 
 Package epstopdf Info: Result file: <itr_8-eps-converted-to.pdf>
-(epstopdf)                    date: 2023-10-21 18:38:54
-(epstopdf)                    size: 12151 bytes.
+(epstopdf)                    date: 2023-10-23 07:38:49
+(epstopdf)                    size: 12033 bytes.
 <itr_8-eps-converted-to.pdf, id=149, 462.72874pt x 347.2975pt>
 File: itr_8-eps-converted-to.pdf Graphic file (type pdf)
 <use itr_8-eps-converted-to.pdf>
-Package pdftex.def Info: itr_8-eps-converted-to.pdf  used on input line 72.
+Package pdftex.def Info: itr_8-eps-converted-to.pdf  used on input line 71.
 (pdftex.def)             Requested size: 398.33858pt x 298.97208pt.
  (./tmp1_8.tex)
 
@@ -955,24 +922,24 @@ LaTeX Font Warning: Command \footnotesize invalid in math mode on input line 22
 
 )
 Package epstopdf Info: Source file: <itr_9.eps>
-(epstopdf)                    date: 2023-10-21 18:38:46
-(epstopdf)                    size: 207734 bytes
+(epstopdf)                    date: 2023-10-23 07:38:42
+(epstopdf)                    size: 207175 bytes
 (epstopdf)             Output file: <itr_9-eps-converted-to.pdf>
-(epstopdf)                    date: 2023-10-21 18:37:57
-(epstopdf)                    size: 12340 bytes
+(epstopdf)                    date: 2023-10-23 07:37:19
+(epstopdf)                    size: 11885 bytes
 (epstopdf)             Command: <repstopdf --outfile=itr_9-eps-converted-to.pdf
  itr_9.eps>
-(epstopdf)             \includegraphics on input line 72.
+(epstopdf)             \includegraphics on input line 71.
 runsystem(repstopdf --outfile=itr_9-eps-converted-to.pdf itr_9.eps)...executed 
 safely (allowed).
 
 Package epstopdf Info: Result file: <itr_9-eps-converted-to.pdf>
-(epstopdf)                    date: 2023-10-21 18:38:55
-(epstopdf)                    size: 12340 bytes.
+(epstopdf)                    date: 2023-10-23 07:38:49
+(epstopdf)                    size: 12126 bytes.
 <itr_9-eps-converted-to.pdf, id=164, 462.72874pt x 347.2975pt>
 File: itr_9-eps-converted-to.pdf Graphic file (type pdf)
 <use itr_9-eps-converted-to.pdf>
-Package pdftex.def Info: itr_9-eps-converted-to.pdf  used on input line 72.
+Package pdftex.def Info: itr_9-eps-converted-to.pdf  used on input line 71.
 (pdftex.def)             Requested size: 398.33858pt x 298.97208pt.
  (./tmp1_9.tex)
 
@@ -994,24 +961,24 @@ LaTeX Font Warning: Command \footnotesize invalid in math mode on input line 22
 
 )
 Package epstopdf Info: Source file: <itr_10.eps>
-(epstopdf)                    date: 2023-10-21 18:38:46
-(epstopdf)                    size: 207961 bytes
+(epstopdf)                    date: 2023-10-23 07:38:43
+(epstopdf)                    size: 207416 bytes
 (epstopdf)             Output file: <itr_10-eps-converted-to.pdf>
-(epstopdf)                    date: 2023-10-21 18:37:57
-(epstopdf)                    size: 11854 bytes
+(epstopdf)                    date: 2023-10-23 07:37:03
+(epstopdf)                    size: 12154 bytes
 (epstopdf)             Command: <repstopdf --outfile=itr_10-eps-converted-to.pd
 f itr_10.eps>
-(epstopdf)             \includegraphics on input line 72.
+(epstopdf)             \includegraphics on input line 71.
 runsystem(repstopdf --outfile=itr_10-eps-converted-to.pdf itr_10.eps)...execute
 d safely (allowed).
 
 Package epstopdf Info: Result file: <itr_10-eps-converted-to.pdf>
-(epstopdf)                    date: 2023-10-21 18:38:55
-(epstopdf)                    size: 12494 bytes.
+(epstopdf)                    date: 2023-10-23 07:38:50
+(epstopdf)                    size: 12221 bytes.
 <itr_10-eps-converted-to.pdf, id=179, 462.72874pt x 347.2975pt>
 File: itr_10-eps-converted-to.pdf Graphic file (type pdf)
 <use itr_10-eps-converted-to.pdf>
-Package pdftex.def Info: itr_10-eps-converted-to.pdf  used on input line 72.
+Package pdftex.def Info: itr_10-eps-converted-to.pdf  used on input line 71.
 (pdftex.def)             Requested size: 398.33858pt x 298.97208pt.
  (./tmp1_10.tex)
 
@@ -1033,24 +1000,24 @@ LaTeX Font Warning: Command \footnotesize invalid in math mode on input line 22
 
 )
 Package epstopdf Info: Source file: <itr_11.eps>
-(epstopdf)                    date: 2023-10-21 18:38:47
-(epstopdf)                    size: 207938 bytes
+(epstopdf)                    date: 2023-10-23 07:38:44
+(epstopdf)                    size: 206562 bytes
 (epstopdf)             Output file: <itr_11-eps-converted-to.pdf>
-(epstopdf)                    date: 2023-10-21 18:37:58
-(epstopdf)                    size: 11847 bytes
+(epstopdf)                    date: 2023-10-23 07:37:04
+(epstopdf)                    size: 11893 bytes
 (epstopdf)             Command: <repstopdf --outfile=itr_11-eps-converted-to.pd
 f itr_11.eps>
-(epstopdf)             \includegraphics on input line 72.
+(epstopdf)             \includegraphics on input line 71.
 runsystem(repstopdf --outfile=itr_11-eps-converted-to.pdf itr_11.eps)...execute
 d safely (allowed).
 
 Package epstopdf Info: Result file: <itr_11-eps-converted-to.pdf>
-(epstopdf)                    date: 2023-10-21 18:38:56
-(epstopdf)                    size: 12460 bytes.
+(epstopdf)                    date: 2023-10-23 07:38:50
+(epstopdf)                    size: 11846 bytes.
 <itr_11-eps-converted-to.pdf, id=194, 462.72874pt x 347.2975pt>
 File: itr_11-eps-converted-to.pdf Graphic file (type pdf)
 <use itr_11-eps-converted-to.pdf>
-Package pdftex.def Info: itr_11-eps-converted-to.pdf  used on input line 72.
+Package pdftex.def Info: itr_11-eps-converted-to.pdf  used on input line 71.
 (pdftex.def)             Requested size: 398.33858pt x 298.97208pt.
  (./tmp1_11.tex)
 
@@ -1061,174 +1028,18 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[12 <./itr_11-eps-converted-to.pdf>] (./tmp2_12.tex
-
-LaTeX Font Warning: Command \footnotesize invalid in math mode on input line 13
-.
-
-
-LaTeX Font Warning: Command \footnotesize invalid in math mode on input line 22
-.
-
-)
-Package epstopdf Info: Source file: <itr_12.eps>
-(epstopdf)                    date: 2023-10-21 18:38:48
-(epstopdf)                    size: 206521 bytes
-(epstopdf)             Output file: <itr_12-eps-converted-to.pdf>
-(epstopdf)                    date: 2023-10-21 18:37:42
-(epstopdf)                    size: 11854 bytes
-(epstopdf)             Command: <repstopdf --outfile=itr_12-eps-converted-to.pd
-f itr_12.eps>
-(epstopdf)             \includegraphics on input line 72.
-runsystem(repstopdf --outfile=itr_12-eps-converted-to.pdf itr_12.eps)...execute
-d safely (allowed).
-
-Package epstopdf Info: Result file: <itr_12-eps-converted-to.pdf>
-(epstopdf)                    date: 2023-10-21 18:38:56
-(epstopdf)                    size: 11854 bytes.
-<itr_12-eps-converted-to.pdf, id=210, 462.72874pt x 347.2975pt>
-File: itr_12-eps-converted-to.pdf Graphic file (type pdf)
-<use itr_12-eps-converted-to.pdf>
-Package pdftex.def Info: itr_12-eps-converted-to.pdf  used on input line 72.
-(pdftex.def)             Requested size: 398.33858pt x 298.97208pt.
- (./tmp1_12.tex)
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[13 <./itr_12-eps-converted-to.pdf>] (./tmp2_13.tex
-
-LaTeX Font Warning: Command \footnotesize invalid in math mode on input line 13
-.
-
-
-LaTeX Font Warning: Command \footnotesize invalid in math mode on input line 22
-.
-
-)
-Package epstopdf Info: Source file: <itr_13.eps>
-(epstopdf)                    date: 2023-10-21 18:38:48
-(epstopdf)                    size: 206694 bytes
-(epstopdf)             Output file: <itr_13-eps-converted-to.pdf>
-(epstopdf)                    date: 2023-10-21 18:37:43
-(epstopdf)                    size: 11917 bytes
-(epstopdf)             Command: <repstopdf --outfile=itr_13-eps-converted-to.pd
-f itr_13.eps>
-(epstopdf)             \includegraphics on input line 72.
-runsystem(repstopdf --outfile=itr_13-eps-converted-to.pdf itr_13.eps)...execute
-d safely (allowed).
-
-Package epstopdf Info: Result file: <itr_13-eps-converted-to.pdf>
-(epstopdf)                    date: 2023-10-21 18:38:56
-(epstopdf)                    size: 11917 bytes.
-<itr_13-eps-converted-to.pdf, id=225, 462.72874pt x 347.2975pt>
-File: itr_13-eps-converted-to.pdf Graphic file (type pdf)
-<use itr_13-eps-converted-to.pdf>
-Package pdftex.def Info: itr_13-eps-converted-to.pdf  used on input line 72.
-(pdftex.def)             Requested size: 398.33858pt x 298.97208pt.
- (./tmp1_13.tex)
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[14 <./itr_13-eps-converted-to.pdf>] (./tmp2_14.tex
-
-LaTeX Font Warning: Command \footnotesize invalid in math mode on input line 13
-.
-
-
-LaTeX Font Warning: Command \footnotesize invalid in math mode on input line 22
-.
-
-)
-Package epstopdf Info: Source file: <itr_14.eps>
-(epstopdf)                    date: 2023-10-21 18:38:49
-(epstopdf)                    size: 206900 bytes
-(epstopdf)             Output file: <itr_14-eps-converted-to.pdf>
-(epstopdf)                    date: 2023-10-21 18:37:43
-(epstopdf)                    size: 12016 bytes
-(epstopdf)             Command: <repstopdf --outfile=itr_14-eps-converted-to.pd
-f itr_14.eps>
-(epstopdf)             \includegraphics on input line 72.
-runsystem(repstopdf --outfile=itr_14-eps-converted-to.pdf itr_14.eps)...execute
-d safely (allowed).
-
-Package epstopdf Info: Result file: <itr_14-eps-converted-to.pdf>
-(epstopdf)                    date: 2023-10-21 18:38:57
-(epstopdf)                    size: 12016 bytes.
-<itr_14-eps-converted-to.pdf, id=240, 462.72874pt x 347.2975pt>
-File: itr_14-eps-converted-to.pdf Graphic file (type pdf)
-<use itr_14-eps-converted-to.pdf>
-Package pdftex.def Info: itr_14-eps-converted-to.pdf  used on input line 72.
-(pdftex.def)             Requested size: 398.33858pt x 298.97208pt.
- (./tmp1_14.tex)
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[15 <./itr_14-eps-converted-to.pdf>] (./tmp2_15.tex
-
-LaTeX Font Warning: Command \footnotesize invalid in math mode on input line 13
-.
-
-
-LaTeX Font Warning: Command \footnotesize invalid in math mode on input line 22
-.
-
-)
-Package epstopdf Info: Source file: <itr_15.eps>
-(epstopdf)                    date: 2023-10-21 18:38:49
-(epstopdf)                    size: 206540 bytes
-(epstopdf)             Output file: <itr_15-eps-converted-to.pdf>
-(epstopdf)                    date: 2023-10-21 18:37:44
-(epstopdf)                    size: 11847 bytes
-(epstopdf)             Command: <repstopdf --outfile=itr_15-eps-converted-to.pd
-f itr_15.eps>
-(epstopdf)             \includegraphics on input line 72.
-runsystem(repstopdf --outfile=itr_15-eps-converted-to.pdf itr_15.eps)...execute
-d safely (allowed).
-
-Package epstopdf Info: Result file: <itr_15-eps-converted-to.pdf>
-(epstopdf)                    date: 2023-10-21 18:38:57
-(epstopdf)                    size: 11847 bytes.
-<itr_15-eps-converted-to.pdf, id=255, 462.72874pt x 347.2975pt>
-File: itr_15-eps-converted-to.pdf Graphic file (type pdf)
-<use itr_15-eps-converted-to.pdf>
-Package pdftex.def Info: itr_15-eps-converted-to.pdf  used on input line 72.
-(pdftex.def)             Requested size: 398.33858pt x 298.97208pt.
- (./tmp1_15.tex)
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[16 <./itr_15-eps-converted-to.pdf>] [17] (./iters_svanb.aux)
+[12 <./itr_11-eps-converted-to.pdf>] [13] (./iters_svanb.aux)
 Package rerunfilecheck Info: File `iters_svanb.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 15969 strings out of 480171
- 278310 string characters out of 5894489
- 539383 words of memory out of 5000000
- 33465 multiletter control sequences out of 15000+600000
+ 15620 strings out of 480171
+ 271591 string characters out of 5894489
+ 532775 words of memory out of 5000000
+ 33157 multiletter control sequences out of 15000+600000
  484102 words of font info for 82 fonts, out of 8000000 for 9000
  59 hyphenation exceptions out of 8191
- 60i,11n,63p,441b,452s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 60i,11n,63p,441b,451s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texl
@@ -1241,10 +1052,10 @@ msfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/
 cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmt
 i12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pf
 b>
-Output written on iters_svanb.pdf (18 pages, 231405 bytes).
+Output written on iters_svanb.pdf (14 pages, 206969 bytes).
 PDF statistics:
- 328 PDF objects out of 1000 (max. 8388607)
- 250 compressed objects within 3 object streams
- 19 named destinations out of 1000 (max. 500000)
- 81 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 267 PDF objects out of 1000 (max. 8388607)
+ 201 compressed objects within 3 object streams
+ 15 named destinations out of 1000 (max. 500000)
+ 61 words of extra memory for PDF output out of 10000 (max. 10000000)
 
